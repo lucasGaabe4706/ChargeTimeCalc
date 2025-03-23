@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tempo de recarga</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="container-principal" class="container-principal">
+      <img
+        src="../assets/logos/teison_logo.png"
+        alt="Logo da Teison Brasil"
+        class="logo-teison"
+      />
+      <img src="../assets/logos/Logo padrao positivo.svg" alt="Logo da AR70" class="logo-ar70">
+      <header id="cabecalho">
+        <h1 class="titulo-cabecalho">Tempo de Recarga</h1>
+      </header>
+
+      <section id="container-escolha" class="container-escolha">
+        <h1 class="titulo-marca">Escolha a Marca:</h1>
+        <img
+          id="logo-marca"
+          class="marca-automotiva"
+          src=""
+          alt="Logotipo de Marca Automotiva"
+          style="display: none"
+        />
+        <select id="select-marcas">
+          <option value=""></option>
+          <option value="Audi">AUDI</option>
+          <option value="BMW">BMW</option>
+          <option value="BYD">BYD</option>
+          <option value="CAOA_Chery">CAOA CHERY</option>
+          <option value="CHEVROLET">CHEVROLET</option>
+          <option value="CITROEN">CITROEN</option>
+          <option value="FIAT">FIAT</option>
+          <option value="FORD">FORD</option>
+          <option value="GWM">GWM</option>
+          <option value="JAC">JAC</option>
+          <option value="JAGUAR">JAGUAR</option>
+          <option value="JEEP">JEEP</option>
+          <option value="LAND_ROVER">LAND ROVER</option>
+          <option value="MERCEDES_BENZ">MERDECEZ BENZ</option>
+          <option value="MINI">MINI</option>
+          <option value="NISSAN">NISSAN</option>
+          <option value="PEUGEOT">PEUGEOT</option>
+          <option value="PORSCHE">PORSCHE</option>
+          <option value="RENAULT">RENAULT</option>
+          <option value="TOYOTA">TOYOTA</option>
+          <option value="VOLKSWAGEN">VOLKSWAGEN</option>
+          <option value="VOLVO">VOLVO</option>
+        </select>
+        <h1 class="titulo-carro">Escolha o Carro:</h1>
+        <select name="select-carros" id="select-carros" disabled>
+          <option value="">Selecione um carro</option>
+        </select>
+
+        <h1 class="titulo-informacoes">Informações do Carro:</h1>
+        <div id="info-carro">
+          <strong><p class="informacoes">Tipo:</p></strong>
+          <strong> <p class="informacoes">Bateria (KW/H):</p></strong>
+          <strong> <p class="informacoes">Autonomia (KM):</p></strong>
+          <strong> <p class="informacoes">Potência AC(KW):</p></strong>
+          <strong> <p class="informacoes">Potência DC (KW):</p></strong>
+        </div>
+      </section>
+      <hr class="divisoria" />
+      <section id="inputs-section">
+        <h2>Selecione a carga adicionada</h2>
+
+        <input type="range" id="slider" min="0" max="100" value="0" />
+        <p>
+          <strong>Carga Adicionada: <span id="valor">0%</span></strong>
+        </p>
+
+        <div class="inputs">
+          <input type="number" id="inicio" min="0" max="100" value="0" />
+          <input type="number" id="fim" min="0" max="100" value="0" />
+        </div>
+        <div id="div-inputsCustoVenda" class="div-inputsCustoVenda">
+          <p class="titulo-custo"><strong>Custo KW/H (R$)</strong></p>
+          <input type="number" id="custo-do-KWh" class="custo-do-KWh"/>
+
+          <p class="titulo-venda"><strong>Venda KW/H (R$)</strong></p>
+          <input type="number" id="venda-do-KWh" class="venda-do-KWh"/>
+
+          <p class="titulo-taxaDesbloqueio"><strong>Taxa de Desbloqueio</strong></p>
+          <input type="number" id="taxa-de-desbloqueio" class="taxa-de-desbloqueio">
+        </div>
+        
+
+      </section>
+
+      <section id="resultados-section" class="resultados-section">
+        <strong> <p>Energia Gasta (KW/H)</p></strong>
+        <input type="number" id="energia-gasta" readonly />
+
+        <strong><p>Custo Total (R$)</p></strong>
+        <input type="number" id="custo-total" readonly />
+
+        <strong><p>Venda Total (R$)</p></strong>
+        <input type="number" id="venda-total" readonly />
+
+        <strong><p>Autonomia Ganha (KM)</p></strong>
+        <input
+          type="number"
+          name="autonomia-ganha"
+          id="autonomia-ganha"
+          readonly
+        />
+
+        <strong><p>Autonomia Final (KM)</p></strong>
+        <input type="number" id="autonomia-final" readonly />
+      </section>
+      <hr class="divisoria" />
+      <div id="titulo-carregadores-ac">
+        <h1>Carregadores AC</h1>
+      </div>
+      <section id="carregadores-ac">
+        <div class="sessao-carregadores1">
+          <div id="div-portatilMini">
+            <h1 id="titulo-portatilMini">Portátil Mini</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/portatil_mini.png"
+              alt=""
+            />
+            <select name="potencias-portatilMini" id="potencias-portatilMini">
+              <option value="3.5">3.5KW</option>
+            </select>
+            <input type="text" readonly id="resultados-portatilMini" />
+          </div>
+
+          <div id="div-portatilPro">
+            <h1 id="titulo-portatilPro">Portátil Pro</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/portatil_pro.png"
+              alt=""
+            />
+            <select  name="potencias-portatilPro" id="potencias-portatilPro">
+              <option value="3.5">3.5KW</option>
+              <option value="7.4">7.4KW</option>
+              <option value="11">11KW</option>
+              <option value="22">22KW</option>
+            </select>
+            <input type="text" readonly id="resultados-portatilPro" />
+          </div>
+
+          <div id="div-smartMini">
+            <h1 id="titulo-smartMini">Smart Mini</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/smart_mini.png"
+              alt=""
+            />
+            <select name="potencias-smartMini" id="potencias-smartMini">
+              <option value="7.4">7.4KW</option>
+              <option value="11">11KW</option>
+              <option value="22">22KW</option>
+            </select>
+            <input type="text" readonly id="resultados-smartMini" />
+          </div>
+
+          <div id="div-smartOcpp">
+            <h1 id="titulo-smartOcpp">Smart OCPP</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/smart_ocpp.png"
+              alt=""
+            />
+            <select name="potencias-smartOcpp" id="potencias-smartOcpp">
+              <option value="7.4">7.4KW</option>
+              <option value="11">11KW</option>
+              <option value="22">22KW</option>
+            </select>
+            <input type="text" readonly id="resultados-smartOcpp" />
+          </div>
+
+          <div id="div-smartTwins">
+            <h1 id="titulo-smartTwins">Twins</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/twins.png"
+              alt=""
+            />
+            <select name="potencias-smartTwins" id="potencias-smartTwins" >
+              <option value="7.4">7.4KW</option>
+              <option value="11">11KW</option>
+              <option value="22">22KW</option>
+            </select>
+            <input type="text" readonly id="resultados-smartTwins" />
+          </div>
+        </div>
+      </section>
+      <div id="titulo-carregadores-dc">
+        <h1>Carregadores DC</h1>
+      </div>
+      <section id="carregadores-dc">
+        <div id="sessao-carregadores-dc">
+          <div id="div-wallboxSingle">
+            <h1 class="titulo-wallboxSingle">Wallbox DC</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/wallbox_1conector.png"
+              alt=""
+            />
+            <select name="potencias-wallboxSingle" id="potencias-wallboxSingle">
+              <option value="20">20KW</option>
+              <option value="30">30KW</option>
+              <option value="40">40KW</option>
+            </select>
+            <h5 class="texto-conector">1 Conector</h5>
+            <input type="text" readonly id="resultados-wallboxSingle" />
+            <h5 class="texto-conector">2 Conectores</h5>
+            <input type="text" id="resultados-wallboxDuo"  readonly>
+          </div>
+      
+          <div id="div-dcStation">
+            <h1 class="titulo-dcStation">Estação DC</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/dcstation.png"
+              alt=""
+            />
+            <select name="potencias-dcStation" id="potencias-dcStation">
+              <option value="60">60KW</option>
+              <option value="80">80KW</option>
+              <option value="90">90KW</option>
+              <option value="120">120KW</option>
+              <option value="150">150KW</option>
+              <option value="160">160KW</option>
+              <option value="180">180KW</option>
+              <option value="200">200KW</option>
+              <option value="240">240KW</option>
+            </select>
+            <h5 class="texto-conector">1 Conector</h5>
+            <input type="text" readonly id="resultados-dcStation" />
+            <h5  class="texto-conector">2 Conectores</h5>
+            <input type="text" readonly id="resultados-dcStationDuo">
+          </div>
+      
+          <div id="div-dcSplit">
+            <h1 class="titulo-dcSplit">DC Split</h1>
+            <img
+              class="foto-carregador"
+              src="../assets/carregadores/split.png"
+              alt=""
+            />
+            <select name="potencias-dcSplit" id="potencias-dcSplit">
+              <option value="480">480KW</option>
+              <option value="800">800KW</option>
+              <option value="1040">1040KW</option>
+            </select>
+            <h5 class="texto-conector">1 Conector</h5>
+            <input type="text" readonly id="resultados-dcSplit" />
+            <h5 class="texto-conector">2 Conectores</h5>
+            <input type="text" readonly id="resultados-dcSplitDuo">
+          </div>
+        </div>
+      </section>
+      
+      
+      <footer>
+        <div id="creditos">
+          <p><strong>Nota:</strong> O tempo de carregamento pode variar de acordo com as condições reais de uso. Os valores apresentados são estimativas baseadas na potência selecionada.</p>
+          <p><strong>&copy; 2025 AR70/Teison Brasil.</strong></p>
+          <p><strong>Desenvolvido por Lucas Santos</strong></p>
+        </div>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
