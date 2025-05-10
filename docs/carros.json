@@ -1,0 +1,855 @@
+{
+  "Audi": {
+    "logo": "../assets/logos/audi_logo.png",
+    "veículos": [
+      {
+        "modelo": "Q8 E-Tron",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 114,
+        "autonomia_km": 357,
+        "potencia_AC_kVA": 11,
+        "potencia_DC_kW": 170
+      },
+      {
+        "modelo": "Q8 Sportback E-Tron",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 114,
+        "autonomia_km": 362,
+        "potencia_AC_kVA": 11,
+        "potencia_DC_kW": 170
+
+      },
+      {
+        "modelo": "SQ8 Sportback E-Tron",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 114,
+        "autonomia_km": 307,
+        "potencia_AC_kVA": 11,
+        "potencia_DC_kW": 170
+      },
+      {
+        "modelo": "RS E-Tron GT",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 94,
+        "autonomia_km": 313,
+        "potencia_AC_kVA": 11,
+        "potencia_DC_kW": 270
+      },
+      {
+        "modelo": "E-Tron GT Quattro",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 94,
+        "autonomia_km": 308,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 270
+      },
+      {
+        "modelo": "Q5 Sportback TFSIe",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 18,
+        "autonomia_km": 38,
+        "potencia_AC_kVA": 7.4,
+        "potencia_DC_kW": 0
+      },
+      {
+        "modelo": "Q5 TFSIe",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 18,
+        "autonomia_km": 38,
+        "potencia_AC_kVA": 7.4,
+        "potencia_DC_kW": null
+      }
+    ]
+  },
+  "BMW": {
+    "logo": "../assets/logos/bmw_logo.png",
+    "veiculos": [
+      {
+        "modelo": "I5 M60 xDrive Sedan",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 85,
+        "autonomia_km": 420,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "I5 M60 xDrive Touring",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 85,
+        "autonomia_km": 415,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "I7 xDrive60 M Sport",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 106,
+        "autonomia_km": 510,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "IX M60",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 112,
+        "autonomia_km": 485,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "IX1 xDrive30 M Sport",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 67,
+        "autonomia_km": 380,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "IX xDrive50 Sport",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 112,
+        "autonomia_km": 505,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "IX xDrive40",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 77,
+        "autonomia_km": 360,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "IX3 M Sport",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 74,
+        "autonomia_km": 460,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "I4 eDrive40 M Sport",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 84,
+        "autonomia_km": 515,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "I4 M50",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 84,
+        "autonomia_km": 450,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "I4 eDrive35 M Sport",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 70,
+        "autonomia_km": 430,
+        "potencia_AC_kVA": 22,
+        "potencia_DC_kW": 200
+      }
+    ]
+  },
+  "BYD": {
+    "logo": "../assets/logos/byd_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Dolphin",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 45,
+        "autonomia_km": 291,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 60
+      },
+      {
+        "modelo": "Dolphin Mini",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 39,
+        "autonomia_km": 280,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 40
+      },
+      {
+        "modelo": "Dolphin Plus",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 61,
+        "autonomia_km": 427,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 80
+      },
+      {
+        "modelo": "Han",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 86,
+        "autonomia_km": 349,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 120
+      },
+      {
+        "modelo": "Seal",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 83,
+        "autonomia_km": 372,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "potencia_DC_kW": 150
+      },
+      {
+        "modelo": "Song Plus",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 9,
+        "autonomia_km": 51,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 3.3,
+        "conector_DC": null,
+        "potencia_DC_kW": null
+      },
+      {
+        "modelo": "Tan",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 87,
+        "autonomia_km": 472,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.5,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 110
+      },
+      {
+        "modelo": "Yuan Plus",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 61,
+        "autonomia_km": 294,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 80
+      }
+    ]
+  },
+  "CAOA_Chery": {
+    "logo": "../assets/logos/caoa_logo.png",
+    "veiculos": [
+      {
+        "modelo": "iCar",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 31,
+        "autonomia_km": 197,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 50
+      },
+      {
+        "modelo": "Tiggo 8 Pro",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 19,
+        "autonomia_km": 54,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 3.5,
+        "conector_DC": null,
+        "potencia_DC_kW": null
+      }
+    ]
+  },
+  "CHEVROLET": {
+    "logo": "../assets/logos/chevrolet_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Bolt EUV",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 66,
+        "autonomia_km": 377,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 55
+      }
+    ]
+  },
+  "CITROEN": {
+    "logo": "../assets/logos/citroen_logo.png",
+    "veiculos": [
+      {
+        "modelo": "E-Jumpy",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 75,
+        "autonomia_km": 289,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 100
+      }
+    ]
+  },
+  "FIAT": {
+    "logo": "..assets/logos/fiat_logo.png",
+    "veiculos": [
+      {
+        "modelo": "500E",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 43,
+        "autonomia_km": 227,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 85
+      }
+    ]
+  },
+  "FORD": {
+    "logo": "../assets/logos/ford_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Mustang Mach-E",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 99,
+        "autonomia_km": 445,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 150
+      }
+    ]
+  },
+  "GWM": {
+    "logo": "../assets/logos/gwm_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Ora Skin",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 48,
+        "autonomia_km": 232,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 64
+      },
+      {
+        "modelo": "Ora GT",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 63,
+        "autonomia_km": 325,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 70
+      },
+      {
+        "modelo": "Haval H6 PHEV",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 34,
+        "autonomia_km": 170,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 48
+      }
+    ]
+  },
+  "JAC": {
+    "logo": "../assets/logos/jac_logo.png",
+    "veiculos": [
+      {
+        "modelo": "E-JS1",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 32,
+        "autonomia_km": 181,
+        "conector_AC": "GB/T",
+        "potencia_AC_kVA": 3.5,
+        "conector_DC": "GB/T",
+        "potencia_DC_kW": 20
+      },
+      {
+        "modelo": "E-JS4",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 55,
+        "autonomia_km": 304,
+        "conector_AC": "GB/T",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "GB/T",
+        "potencia_DC_kW": 40
+      },
+      {
+        "modelo": "E-J7",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 50,
+        "autonomia_km": 249,
+        "conector_AC": "GB/T",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "GB/T",
+        "potencia_DC_kW": 40
+      },
+      {
+        "modelo": "E-JS1 EXT",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 30,
+        "autonomia_km": 161,
+        "conector_AC": "GB/T",
+        "potencia_AC_kVA": 3.5,
+        "conector_DC": "GB/T",
+        "potencia_DC_kW": 20
+      },
+      {
+        "modelo": "IEV-330P",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 66,
+        "autonomia_km": 226,
+        "conector_AC": "GB/T",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "GB/T",
+        "potencia_DC_kW": 40
+      },
+      {
+        "modelo": "E-JV7L",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 51,
+        "autonomia_km": 260,
+        "conector_AC": "GB/T",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "GB/T",
+        "potencia_DC_kW": 50
+      }
+    ]
+  },
+  "JAGUAR": {
+    "logo": "../assets/logos/jaguar_logo.png",
+    "veiculos": [
+      {
+        "modelo": "I-Pace EV400",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 90,
+        "autonomia_km": 380,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 104
+      },
+      {
+        "modelo": "F-Pace P400E",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 17,
+        "autonomia_km": 59,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 32
+      }
+    ]
+  },
+  "JEEP": {
+    "logo": "../assets/logos/jeep_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Grand Cherokee 4XE",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 17,
+        "autonomia_km": 29,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "potencia_DC_kW": null
+
+      },
+      {
+        "modelo": "Compass 4XE",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 12,
+        "autonomia_km": 30,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "potencia_DC_kW": null
+      }
+    ]
+  },
+  "LAND_ROVER": {
+    "logo": "../assets/logos/land_rover_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Velar P400E",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 17,
+        "autonomia_km": 53,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 32
+      },
+      {
+        "modelo": "Sport P400E",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 14,
+        "autonomia_km": 35,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "potencia_DC_kW": null
+      },
+      {
+        "modelo": "Defender P400E",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 19,
+        "autonomia_km": 44,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 50
+      }
+    ]
+  },
+  "MERCEDES_BENZ": {
+    "logo": "../assets/logos/mercedes_logo.png",
+    "veiculos": [
+      {
+        "modelo": "EQE Sedan",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 89,
+        "autonomia_km": 369,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 173
+      },
+      {
+        "modelo": "EQS Sedan",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 108,
+        "autonomia_km": 373,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "EQE SUV",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 100,
+        "autonomia_km": 367,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 173
+      },
+      {
+        "modelo": "EQS SUV",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 120,
+        "autonomia_km": 411,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 200
+      },
+      {
+        "modelo": "EQA",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 67,
+        "autonomia_km": 304,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 100
+      },
+      {
+        "modelo": "EQB",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 70,
+        "autonomia_km": 304,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 113
+      }
+    ]
+  },
+  "MINI": {
+    "logo": "../assets/logos/mini_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Cooper SE",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 33,
+        "autonomia_km": 180,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 50
+      },
+      {
+        "modelo": "SE Countryman All4",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 10,
+        "autonomia_km": 50,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 3.6,
+        "potencia_DC_kW": null
+      }
+    ]
+  },
+  "NISSAN": {
+    "logo": "../assets/logos/nissan_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Leaf",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 40,
+        "autonomia_km": 235,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "conector_DC": "CHAdeMO",
+        "potencia_DC_kW": 50
+      },
+      {
+        "modelo": "Leaf E+",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 60,
+        "autonomia_km": 340,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "conector_DC": "CHAdeMO",
+        "potencia_DC_kW": 50
+      }
+    ]
+  },
+  "PEUGEOT": {
+    "logo": "../assets/logos/peugeot_logo.png",
+    "veiculos": [
+      {
+        "modelo": "E-208 GT",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 50,
+        "autonomia_km": 362,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 100
+      },
+      {
+        "modelo": "E-2008",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 55,
+        "autonomia_km": 345,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 100
+      },
+      {
+        "modelo": "E-Expert",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 75,
+        "autonomia_km": 330,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 100
+      }
+    ]
+  },
+  "PORSCHE": {
+    "logos": "../assets/logos/porsche_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Taycan",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 93,
+        "autonomia_km": 355,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 150
+      },
+      {
+        "modelo": "Cayenne E-Hybrid",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 26,
+        "autonomia_km": 70,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "potencia_DC_kW": null
+      },
+      {
+        "modelo": "Panamera E-Hybrid",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 26,
+        "autonomia_km": 90,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 11.0,
+        "potencia_DC_kW": null
+      }
+    ]
+  },
+  "RENAULT": {
+    "logo": "../assets/logos/renault_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Zoe Z.E.",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 40,
+        "autonomia_km": 300,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 22.0,
+        "potencia_DC_kW": null
+      },
+      {
+        "modelo": "Zoe E-Tech 50",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 50,
+        "autonomia_km": 385,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 22.0,
+        "conector_DC": "CCS2",
+        "potencia_DC_kW": 50
+      },
+      {
+        "modelo": "Kwid E-Tech",
+        "tipo": "100% elétrico",
+        "bateria_kWh": 27,
+        "autonomia_km": 185,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "potencia_DC_kW": null
+      }
+    ]
+  },
+  "TOYOTA": {
+    "logo": "../assets/logos/toyota_logo.png",
+    "veiculos": [
+      {
+        "modelo": "Corolla Cross PHEV",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 13.8,
+        "autonomia_km": 55,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 7.4,
+        "potencia_DC_kW": null
+      },
+      {
+        "modelo": "RAV4 PHEV",
+        "tipo": "Híbrido plug-in",
+        "bateria_kWh": 18.1,
+        "autonomia_km": 55,
+        "conector_AC": "T2",
+        "potencia_AC_kVA": 6.6,
+        "potencia_DC_kW": null
+      }
+    ],
+    "VOLKSWAGEN": {
+      "logo": "../assets/logos/volkswagen_logo.png",
+      "veiculos": [
+        {
+          "modelo": "I.D4",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 82,
+          "autonomia_km": 370,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 135
+        }
+      ]
+    },
+    "VOLVO": {
+      "logo": "..assets/logos/volvo_logo.png",
+      "veiculos": [
+        {
+          "modelo": "C40 RECHARGE RWD",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 69,
+          "autonomia_km": 385,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 175
+        },
+        {
+          "modelo": "C40 RECHARGE AWD",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 78,
+          "autonomia_km": 352,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 175
+        },
+        {
+          "modelo": "EX30 RWD",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 51,
+          "autonomia_km": 250,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 175
+        },
+        {
+          "modelo": "EX30 EXTENDED RANGE",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 69,
+          "autonomia_km": 338,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 175
+        },
+        {
+          "modelo": "EX90 AWD",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 111,
+          "autonomia_km": 465,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 250
+        },
+        {
+          "modelo": "XC40 RECHARGE RWD",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 69,
+          "autonomia_km": 367,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 175
+        },
+        {
+          "modelo": "XC40 RECHARGE AWD",
+          "tipo": "100% elétrico",
+          "bateria_kWh": 78,
+          "autonomia_km": 348,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 11.0,
+          "conector_DC": "CCS2",
+          "potencia_DC_kW": 175
+        },
+        {
+          "modelo": "XC90 RECHARGE",
+          "tipo": "Híbrido plug-in",
+          "bateria_kWh": 19,
+          "autonomia_km": 50,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 3.6,
+          "potencia_DC_kW": null
+        },
+        {
+          "modelo": "XC60 RECHARGE",
+          "tipo": "Híbrido plug-in",
+          "bateria_kWh": 19,
+          "autonomia_km": 55,
+          "conector_AC": "T2",
+          "potencia_AC_kVA": 3.6,
+          "potencia_DC_kW": null
+        }
+      ]
+    }
+  }
+}
