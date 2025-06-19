@@ -1,0 +1,32 @@
+{
+    "app_name": "Calculadora de Recarga",
+    "main": "calculadora.html",
+    "name": "Calculadora de Recarga",
+    "webexe_settings": {
+        "blacklist": "",
+        "custom_script": "",
+        "download_dir": "",
+        "export_dir": "",
+        "force_download": true,
+        "mac-x64": true,
+        "nw_compression_level": 2,
+        "nw_version": "0.93.0",
+        "output_pattern": "",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "whitelist": "",
+        "windows-x64": true
+    },
+    "webkit": {},
+    "window": {
+        "exe_icon": "recharge.jpg",
+        "frame": true,
+        "icon": "recharge.jpg",
+        "id": "Calculadora de Recarga",
+        "resizable": true,
+        "show": true,
+        "show_in_taskbar": true,
+        "title": "Calculadora de Recarga",
+        "visible": true
+    }
+}

@@ -1,0 +1,393 @@
+body {
+  background-color: #f9f9f9;
+  overflow: hidden; /* Evita a barra de rolagem */
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Largura inicial */
+  height: 99vh; /* Altura limitada para evitar corte */
+  overflow-y: auto; /* Permite rolagem vertical */
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+hr {
+  width: 100%;
+  height: 2px; /* Espessura da linha */
+  background-color: black; /* Cor da linha */
+  margin: 20px 0; /* Espaço acima e abaixo */
+}
+
+/* Media Queries para diferentes tamanhos de tela */
+@media (min-width: 1500px) {
+  .container-principal {
+    width: 50%; /* Ocupará 50% da largura da tela em telas médias */
+  }
+}
+
+@media (min-width: 2000px) {
+  .container-principal {
+    width: 30%; /* Ocupará 30% da largura da tela em telas grandes */
+  }
+}
+
+.logo-teison {
+  position: absolute;
+  top: 27px; /* Distância do topo */
+  right: 20px; /* Distância da direita */
+  height: 40px;
+}
+
+.logo-ar70{
+  position: absolute;
+  top: 30px; /* Distância do topo */
+  left: 20px; /* Distância da direita */
+  height: 30px;
+}
+
+#cabecalho {
+  display: flex;
+  position: relative;
+  justify-content: center; /* Empurra os elementos para os extremos */
+  height: 6%;
+  top: 10;
+}
+
+.container-escolha {
+  display: grid;
+  height: 400px;
+  position: relative;
+  margin-top: -30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  place-items: center;
+}
+
+.titulo-marca {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  margin-top: 100px;
+}
+
+.marca-automotiva {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  justify-self: center;
+  align-items: center;
+  margin-top: -70px;
+}
+
+#select-marcas {
+  grid-column: 1;
+  grid-row: 2;
+  height: 30px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.titulo-carro {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 100px;
+}
+
+#select-carros {
+  grid-column: 2;
+  grid-row: 2;
+  height: 30px;
+  border-radius: 20px;
+  width: 200px;
+}
+.titulo-informacoes {
+  grid-column: 3;
+  grid-row: 1;
+  margin-top: 100px;
+}
+
+#info-carro {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.informacoes {
+  margin-left: 0px;
+}
+
+#inputs-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+}
+
+input[type="range"] {
+  width: 50%; /* Garantir que ocupe toda a largura disponível */
+  height: 20px;
+  margin: 10px 0;
+  grid-column: 1; /* Ele ocupará a largura de duas colunas */
+  grid-row: 2; /* Fica na segunda linha */
+  justify-self: center; /* Centralizar o slider */
+}
+
+#inputs-section p {
+  grid-column: 1;
+  justify-self: center;
+}
+
+#inputs-section h2 {
+  justify-self: center;
+}
+
+.inputs {
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: center;
+}
+
+#div-inputsCustoVenda {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  grid-template-columns: 1fr 1fr; /* Primeira coluna para título e segunda para o input */
+  grid-template-rows: 1fr 1fr 1fr 1fr; /* Apenas uma linha */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.inputs input {
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.titulo-custo {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 0;
+  justify-self: center;
+}
+
+#div-inputsCustoVenda .titulo-venda {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 0;
+  justify-self: center;
+}
+
+.custo-do-KWh {
+  grid-column: 1;
+  grid-row: 2;
+  width: 160px;
+  height: 20px;
+  border-radius: 20px;
+  justify-self: center;
+}
+
+.venda-do-KWh {
+  grid-column: 2;
+  grid-row: 2;
+  width: 160px;
+  height: 20px;
+  border-radius: 20px;
+  justify-self: center;
+}
+
+.titulo-taxaDesbloqueio {
+  justify-self: center;
+}
+.taxa-de-desbloqueio {
+  grid-column: 1;
+  grid-row: 4;
+  width: 160px;
+  height: 20px;
+  border-radius: 20px;
+  justify-self: center;
+}
+
+#resultados-section {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Define 2 colunas */
+}
+
+#resultados-section p {
+  justify-self: center;
+  font-size: 12px;
+}
+
+#resultados-section input {
+  grid-row: 2;
+  width: 140px;
+  height: 20px;
+  border-radius: 20px;
+  justify-self: center;
+  background-color: rgb(229, 235, 235);
+}
+
+.foto-carregador {
+  width: 180px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#titulo-carregadores-ac {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.sessao-carregadores1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+
+#div-portatilMini {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+#div-portatilPro {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+#div-smartMini {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+#div-smartOcpp {
+  grid-column: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+#div-smartTwins {
+  grid-column: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+#carregadores-ac select {
+  width: 70px;
+  border-radius: 20px;
+}
+
+#carregadores-ac input {
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgb(235, 240, 240);
+  text-align: center;
+}
+
+#sessao-carregadores-dc {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 1px;
+}
+
+#div-wallboxSingle {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+}
+
+#div-dcStation {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+}
+
+#div-dcSplit {
+  grid-column: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+}
+
+.texto-conector {
+  margin-bottom: 0;
+  gap: 0;
+}
+
+#titulo-carregadores-dc {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+#carregadores-dc select {
+  width: 70px;
+  border-radius: 20px;
+}
+
+#carregadores-dc input {
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgb(235, 240, 240);
+  gap: 0px;
+  text-align: center;
+}
+
+.nota{
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  gap: 0;
+}
+
+#creditos{
+  display: grid;
+  margin-top: 50px;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#creditos p{
+  display: grid;
+ margin-top: 2px;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
